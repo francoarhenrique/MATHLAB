@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATLAB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--titulo do site, MATLAB -->
+    <header>
+        <h1>MATLAB</h1>
+    </header>
+
+    <!--conteudo principal-->
+    <main>
+        <div>
+
+            <!--escolha do do x-->
+            <div>
+                <label for="Valor_X">Escolha o valor de X:</label>
+                <input type="number" id="valor_x" placeholder="Valor de X:">
+            </div>
+
+            <!--escolha do coeficiente angular-->
+            <div>
+                <label for="Valor_a">Escolha o valor do coeficiente angular (valor de a):</label>
+                <input type="number" id="valor_a" placeholder="Valor de a:">
+            </div>
+
+            <!--escolha do coeficiente linear-->
+            <div>
+                <label for="Valor_b">Escolha o valor do coeficiente linear (valor de b):</label>
+                <input type="number" id='valor_b' placeholder="Valor de b:">
+            </div>
+
+        </div>
+        <!--botao para calcular-->
+        <div>
+            <button id="btn_calcular">Calcular</button>
+        </div>
+        <!--o botao recebe os dados de x, a e b atraves do java script, e efetua o calculo-->
+
+        <!--resltado exibido-->
+        <div>
+            <div id="resultado">resultado</div>
+        </div>
+        <!--o resultado recebe o valor do calculo do botao e exibe o resltado final do calculo, o valor de Y-->
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
