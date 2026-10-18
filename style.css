@@ -69,3 +69,7 @@ main input:focus {
 #btn_calcular:hover {
     background-color: #1d4ed8;
 }
+
+#resultado {
+    white-space: pre-line;
+}
